@@ -26,7 +26,7 @@ class NLULongPollBot(LongPollBot):
     dataset = {}  # {слово: [[запрос, ответ], [запрос 2, ответ 2], ...], ...}
 
     # порог вероятности, при котором на намерение пользователя будет отправляться ответ из bot_config
-    threshold = 0.35
+    threshold = 0.3
 
     # ведение статистики ответов
     stats = {"intent": 0, "generative": 0, "failure": 0}
